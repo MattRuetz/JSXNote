@@ -1,20 +1,30 @@
 {
-    "name": "cli",
+    "name": "jsxnote",
     "version": "1.0.0",
     "description": "",
+    "bin": "dist/index.js",
+    "publicConfig": {
+        "access": "public"
+    },
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "start": "tsc --watch --preserveWatchOutput",
+        "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\"",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "commander": "^9.0.0",
-        "local-api": "^1.0.0"
+        "@jsxnote/local-client": "^1.0.0"
     },
     "devDependencies": {
+        "@jsxnote/local-api": "^1.0.0",
+        "commander": "^9.0.0",
         "@types/node": "^17.0.17",
+        "esbuild": "0.8.26",
         "typescript": "^4.5.5"
     }
 }
