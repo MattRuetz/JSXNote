@@ -1,7 +1,7 @@
 {
     "name": "@jsxnote/local-client",
     "version": "1.0.4",
-    "publicConfig": {
+    "publishConfig": {
         "access": "public"
     },
     "files": [
@@ -63,5 +63,5 @@
             "last 1 safari version"
         ]
     },
-    "gitHead": "42244a0220cda15ce4399b15ed0af8cd99da9aa2"
+    "gitHead": "288cef31b6608b1f43b390e1aa876a577eb69572"
 }

@@ -3,7 +3,7 @@
     "version": "1.0.4",
     "description": "",
     "bin": "dist/index.js",
-    "publicConfig": {
+    "publishConfig": {
         "access": "public"
     },
     "files": [
@@ -27,5 +27,5 @@
         "esbuild": "0.8.26",
         "typescript": "^4.5.5"
     },
-    "gitHead": "42244a0220cda15ce4399b15ed0af8cd99da9aa2"
+    "gitHead": "288cef31b6608b1f43b390e1aa876a577eb69572"
 }

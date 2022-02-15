@@ -1,6 +1,6 @@
 {
     "name": "root",
-    "publicConfig": {
+    "publishConfig": {
         "access": "public"
     },
     "devDependencies": {
