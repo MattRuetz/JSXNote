@@ -1,6 +1,6 @@
 {
     "name": "@jsxnote/local-api",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "",
     "publicConfig": {
         "access": "public"
@@ -23,7 +23,7 @@
         "typescript": "^4.5.5"
     },
     "dependencies": {
-        "@jsxnote/local-client": "^1.0.2",
+        "@jsxnote/local-client": "^1.0.3",
         "cors": "^2.8.5",
         "express": "^4.17.2",
         "http-proxy-middleware": "^2.0.3"
