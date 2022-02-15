@@ -11,7 +11,7 @@
     ],
     "scripts": {
         "start": "tsc --watch --preserveWatchOutput",
-        "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\"",
+        "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\"production\"",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
@@ -27,5 +27,5 @@
         "esbuild": "0.8.26",
         "typescript": "^4.5.5"
     },
-    "gitHead": "0134e0c2eea2da7a5670e87084ce249ad5c19058"
+    "gitHead": "42244a0220cda15ce4399b15ed0af8cd99da9aa2"
 }
