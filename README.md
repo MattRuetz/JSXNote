@@ -1,32 +1,34 @@
 # 👨‍💻 JSXNote 📝
-JSXNote is a React Web App that allows the user to write blocks of code or blocks of text (Markdown), and rearrange these blocks similar to Jupyter Notebooks. Blocks of code are appended together during runtime in the order they appear, so that the user can build up a single project or demo made of many cells of code.
+JSXNote is a React web app that allows the user to write blocks of code (JS/JSX) or blocks of text (Markdown), and rearrange these blocks similar to Jupyter Notebooks. Blocks of code are appended together during runtime in the order they appear, so that the user can build up a single project or demo made of many cells of code.
 
 ---
 
 # Setup
 
 ## 📦 npm install
-To install and use this package with npm, enter the following commands into a terminal/command prompt from a chosen working directory, where notbooks can be saved:
-- First, if npm is not installed, type:
+To install:
+- Navigate to a chosen working directory, where notes can be saved.
+- 
+- If npm is not installed, enter the following command into a command window:
 
 `npm install install`
 
-- Next, install the jsxnote package from npm and add on a custom file name to save to / load from:
+- Next, install the jsxnote package from npm and add on a custom file name to save to / load from by entering:
 
 `npx jsxnote serve [fileName]`
 
 - If successful, the following message will appear:
 > Opened notebook.js. Navigate to http://localhost:4005
 
-Open your browser to http://localhost:4005 to use the React App.
+Open your browser to http://localhost:4005 to use the app.
 
 # ❓ How to Use
-Upon opening the App, the following interface appears. The user may select either option to create the first cell of the document.
+Upon opening the app, the following interface appears. The user may click either option to create the first cell of the document.
 
 ![image](https://user-images.githubusercontent.com/91920147/157570381-8fbb4305-9f0e-445f-bc59-d673a3f9ac4f.png)
 
 ## ➕ Adding More Cells
-After creating your first cell, hover the mouse cursor above or below the single cell to create another, either above or below it:
+After creating your first cell, hover the mouse cursor above or below the single cell to create another cell:
 
 ![image](https://user-images.githubusercontent.com/91920147/157572319-06d52f28-d7f4-473d-9b83-d529b2eab8f0.png)
 
@@ -37,7 +39,7 @@ Click the _Text_ button to create a Text cell. After creating a text cell, **cli
 
 Enter Markdown text in the textbox on the left. A preview will show the styled text after Markdown processing on the right.
 
-Clicking **outside the text cell** will cause the editor to close, and the process text to be displayed:
+Clicking **outside the text cell** will cause the editor to close, and the formatted text to be displayed:
 
 ![image](https://user-images.githubusercontent.com/91920147/157571616-e8f51931-0e8d-4100-bd82-0f28dc22bd42.png)
 
@@ -50,7 +52,15 @@ Click the _Code_ button to make a Code cell appear. The new code cell has variou
 
 ![image](https://user-images.githubusercontent.com/91920147/157572651-c0ab149c-30ff-4760-a6d4-4e125993cdc1.png)
 
-### 👀 The 'Show()' Function
+## 🔀 Reordering Cells
+Each Text or Code cell has 3 naviga�tion buttons:
+- ⬆️ will swap this cell with the cell _above_ it
+- ⬇️ will swap this cell with the cell _below_ it
+- 🗑️ will instantly delete this cell. **Be careful - there is no warning before deleting!**
+
+![image](https://user-images.githubusercontent.com/91920147/157576530-8a6f2f64-566e-4985-8905-7f539d3f2d13.png)
+
+## 👀 The 'Show()' Function
 I have included a custom function to inject JSX into the preview window. Below is an example of injecting a simple React Header component:
 
 ![image](https://user-images.githubusercontent.com/91920147/157573872-9bf04192-0ce1-4710-b5a5-a5ed0ea457b6.png)
