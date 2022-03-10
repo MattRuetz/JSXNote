@@ -61,11 +61,9 @@ Each Text or Code cell has 3 naviga�tion buttons:
 ![image](https://user-images.githubusercontent.com/91920147/157576530-8a6f2f64-566e-4985-8905-7f539d3f2d13.png)
 
 ## 👀 The 'Show()' Function
-I have included a custom function to inject JSX into the preview window. Below is an example of injecting a simple React Header component:
+I have included a custom function to inject JSX into the preview window. This example demonstrates how a simple react element can be created and displayed using the `show()` function:
 
 ![image](https://user-images.githubusercontent.com/91920147/157573872-9bf04192-0ce1-4710-b5a5-a5ed0ea457b6.png)
-
-This example demonstrates how a simple react element can be created and displayed using the `show()` function.
 
 ## ⚛️ React, Out of the Box
 The code cells include React and ReactDOM without any import or include necessary. This means that React components can be made directly, with JSX, in the code cells. As mentioned, these cells are stung together before bundling so that components can be referenced in cells other than the one it was created in - no export/import necessary.
