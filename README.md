@@ -1,4 +1,4 @@
-# 👨‍💻📝 JSXNote
+# 👨‍💻 JSXNote 📝
 JSXNote is a React Web App that allows the user to write blocks of code or blocks of text (Markdown), and rearrange these blocks similar to Jupyter Notebooks. Blocks of code are appended together during runtime in the order they appear, so that the user can build up a single project or demo made of many cells of code.
 
 ---
@@ -30,7 +30,7 @@ After creating your first cell, hover the mouse cursor above or below the single
 
 ![image](https://user-images.githubusercontent.com/91920147/157572319-06d52f28-d7f4-473d-9b83-d529b2eab8f0.png)
 
-## 🔡 Text Cells
+## 📝 Text Cells
 Click the _Text_ button to create a Text cell. After creating a text cell, **click inside the cell to make the editor appear**:
 
 ![image](https://user-images.githubusercontent.com/91920147/157570499-eb2c1fc5-5195-4a46-8d7e-95e0622e19d9.png)
