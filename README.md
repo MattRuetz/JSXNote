@@ -1,5 +1,5 @@
 # 👨‍💻 JSXNote 📝
-JSXNote is a React web app that allows the user to write blocks of code (JS/JSX) or blocks of text (Markdown), and rearrange these blocks similar to Jupyter Notebooks for Python. Blocks of code are appended together during runtime in the order they appear, so that the user can build up a single project or demo made of many cells of code.
+JSXNote is a React web app that allows the user to write blocks of code in JavaScript with React (JS/JSX) or blocks of text (Markdown), and rearrange these blocks, similar to Jupyter Notebooks for Python. Blocks of code are appended together during runtime in the order they appear, so that the user can build up a single project or demo made of many cells of code.
 
 ---
 
