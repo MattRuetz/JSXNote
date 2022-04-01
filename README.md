@@ -8,7 +8,6 @@ JSXNote is a React web app that allows the user to write blocks of code (JS/JSX)
 ## 📦 npm install
 To install:
 - Navigate to a chosen working directory, where notes can be saved.
-- 
 - If npm is not installed, enter the following command into a command window:
 
 `npm install install`
