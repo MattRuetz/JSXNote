@@ -60,7 +60,7 @@ Each Text or Code cell has 3 naviga�tion buttons:
 ![image](https://user-images.githubusercontent.com/91920147/157576530-8a6f2f64-566e-4985-8905-7f539d3f2d13.png)
 
 ## 👀 The 'Show()' Function
-I have included a custom function to inject JSX into the preview window. This example demonstrates how a simple react element can be created and displayed using the `show()` function:
+`show()` is used to output JSX to the preview window. This example demonstrates how a simple react element can be created and displayed using `show()`:
 
 ![image](https://user-images.githubusercontent.com/91920147/157573872-9bf04192-0ce1-4710-b5a5-a5ed0ea457b6.png)
 
